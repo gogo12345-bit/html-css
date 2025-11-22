@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    .btn{
+      background-color: green;
+    }
+    .body>*{
+      color:white;
+    }
+    .container-fluid{
+       background-color: black;
+    }
+    .navbar-brand>*{
+      font-size: small;
+      margin-top: 10px;
+    }
+    .feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+}
+
+.navbar .navbar-brand { color: antiquewhite !important; }
+.navbar .nav-link { color: antiquewhite !important; }
+.navbar .dropdown-toggle { color: antiquewhite !important; }
+.navbar .dropdown-item { color: antiquewhite !important; }
+.navbar p { color: antiquewhite !important; }
+  .fixed-img{
+  width:100%;
+  height:200px;
+  object-fit: contain;
+ }
+ .g-4{
+  display:flex;
+  flex-wrap: wrap;
+ }
+ .px-5{
+  height:400px;
+ }
+ .gaurang{
+  padding:0px;
+  height:400px;
+  object-fit: contain;
+  border-radius:50%;
+ }
+ .mt-5{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  width:100vw;
+ }
+ #icc{
+  margin-left:50%;
+ }
+  </style>
+</head>
+  
+<body>
+  <div class="container">
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Online Portfolio
+      <p>My portfolio website</p>
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">My Accomplishments</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav item nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Skills
+          </a>
+          <ul class=" nav-item dropdown-menu">
+            <li><a class="dropdown-item" href="#">HTML</a></li>
+            <li><a class="dropdown-item" href="#">CSS</a></li>
+            <li><a class="dropdown-item" href="#">JAVASCRIPT</a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><a class="dropdown-item" href="#">C++</a></li>
+            <li><a class="dropdown-item" href="#">DSA</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<div class="px-4 pt-5 my-5 text-center border-bottom"> <h1 class="display-4 fw-bold text-body-emphasis">My First Webpage</h1> <div class="col-lg-6 mx-auto"> <p class="lead mb-4">I created my first webpage using HTML and CSS. It is a personal portfolio website that includes a navigation bar, sections about me, my skills and accomplishments. HTML was used to structure the content while CSS was used to style the webpage and make it look attractive. This project helped me understand the basics of web designing.
+
+</p> <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5"> <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">About Me</button> 
+<button type="button" class="btn btn-primary btn-lg px-4 me-sm-3" href="./GAURANG RESUME/index2.html">My Resume</button> 
+</div> </div> <div class="overflow-hidden" style="max-height: 5000px;"> <div class="container px-5"> 
+  <img src="./Screenshot 2025-11-20 175808.png" class="img-fluid fixed-image border rounded-3 shadow-lg mb-4 gaurang"
+ alt="Example image" width="700" height="500" loading="lazy"> </div> </div> </div>
+ <div class="container px-4 py-5" id="featured-3"> <h2 class="pb-2 border-bottom">Why Hire Me?</h2> <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <img src="./briefcase.svg"/> </div> <h3 class="fs-2 text-body-emphasis">
+  I don’t give up until I find the solution.</h3> 
+  <p>When something doesn’t work, I keep trying, debugging, and asking the right questions until the problem is fully solved.</p> <a href="#" class="icon-link">
+
+<img src="./chevron-right.svg"/> </a> </div> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <img src="./bus-front.svg"/> </div> <h3 class="fs-2 text-body-emphasis">
+  I am a fast learner and take initiative.</h3> <p>I built my first portfolio website using HTML, CSS, and Bootstrap, and I constantly improved it by experimenting and learning new things on my own.</p> <a href="#" class="icon-link">
+
+<img src="./chevron-right.svg"/> </a> </div> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <img src="./chat-square-heart.svg"/> </div> <h3 class="fs-2 text-body-emphasis">
+  I focus on real understanding, not shortcuts.</h3> <p>I don’t just copy code — I understand how and why it works, including responsive design, layout behavior, and styling logic.</p> <a href="#" class="icon-link">
+
+<section class="container mt-5">
+    <h2 class="text-center mb-4" id="acc">My Accomplishments</h2>
+
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover">
+        <thead class="table-dark text-center">
+          <tr>
+            <th>#</th>
+            <th>Achievement</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody class="text-center">
+          <tr>
+            <th>1</th>
+            <td>Received a Gold Medal in Class 12th for Academic Performance</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td>Joined 3 Technical Societies in College</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td>Volunteered in Organizing Tech and Cultural Events</td>
+            <td>2024–2025</td>
+          </tr>
+          <tr>
+            <th>4</th>
+            <td>Won 1st Position in AIML Hackathon at IIT Delhi and 4th Position in College Ideathon (40+ Teams)</td>
+            <td>2025</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./Screenshot 2025-11-20 201653.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Screenshot 2025-11-20 201712.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Screenshot 2025-11-20 201828.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Screenshot 2025-11-20 202626.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Screenshot 2025-11-21 014902.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</body>
+
+</html>
+  </section>
+
